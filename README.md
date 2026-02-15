@@ -101,6 +101,16 @@ Full snapshot available here:
 
 [browser_process_snapshot_2026-02-12.txt](browser_process_snapshot_2026-02-12.txt)
 
+### Why This Matters
+
+Understanding browser resource consumption is critical in:
+
+- Help Desk performance troubleshooting
+- End-user complaint diagnostics ("my browser is slow")
+- System resource bottleneck analysis
+- Extension and tab isolation workflows
+
+
 👤 Author
 
 Tomasz J. Lyszyk
