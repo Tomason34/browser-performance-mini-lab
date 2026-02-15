@@ -80,6 +80,27 @@ Core Principle
 
 Measure first. Analyze second. Conclude last.
 
+---
+
+## 📊 Browser Process Snapshot (Windows 11)
+
+**Snapshot Date:** 2026-02-12  
+**Method Used:** PowerShell  
+`Get-Process | Sort-Object CPU -Descending`
+
+### Key Observations
+
+- Microsoft Edge showed a dominant high-CPU process (~164 CPU time)
+- Peak RAM usage observed: ~1056 MB
+- Google Chrome processes were more evenly distributed
+- Multi-process browser architecture confirmed
+
+### Raw Data
+
+Full snapshot available here:
+
+[browser_process_snapshot_2026-02-12.txt](browser_process_snapshot_2026-02-12.txt)
+
 👤 Author
 
 Tomasz J. Lyszyk
